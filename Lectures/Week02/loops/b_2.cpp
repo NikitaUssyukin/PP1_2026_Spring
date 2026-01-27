@@ -8,11 +8,8 @@ using namespace std;
 
 int main() {
 
-    int a = 1;
-
-    for(int i = 1; i <= 5; ++i) { // ++i same as i = i + 1
-        cout << a << endl;
-        a = a + 1;
+    for(int i = 1; i <= 5; ++i) { // ++i same as i = i + 1 or i += 1
+        cout << i << endl;
     }
 
     return 0;

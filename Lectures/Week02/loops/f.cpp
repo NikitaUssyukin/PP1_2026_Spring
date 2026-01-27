@@ -7,7 +7,7 @@ int main() {
     int a;
     cin >> a;
 
-    while(a <= 10) { // infinite loop
+    while(a <= 10) {
         if(a % 2 == 0) {
             ++a;
             continue;

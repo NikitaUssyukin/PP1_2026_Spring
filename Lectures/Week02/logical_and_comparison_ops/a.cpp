@@ -13,9 +13,9 @@ int main() {
 
     cin >> a >> b;
 
-    cout << "AND: " << (a && b) << endl;
-    cout << "OR: " << (a || b) << endl;
-    cout << "NOT: " << (!a) << endl;
+    cout << "a AND b: " << (a && b) << endl;
+    cout << "a OR b: " << (a || b) << endl;
+    cout << "NOT a: " << (!a) << endl;
 
     return 0;
 }
