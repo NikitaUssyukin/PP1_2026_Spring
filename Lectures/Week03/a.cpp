@@ -4,11 +4,11 @@ Numeric systems
 Decimal: base 10, 10 digits, from 0 to 9
 Binary: base 2, 2 digits (bits), 0 and 1
 Octal: base 8, 8 digits, from 0 to 7
-Hexadecimal: base 16, 16 digits, from 0 to 9 and from A to F
+Hexadecimal: base 16, 16 "digits", from 0 to 9 and from A to F
 
 dec: 123 -> 1 * 10^2 + 2 * 10^1 + 3 * 10^0 = 100 + 20 + 3
 hex: 123 -> 1 * 16^2 + 2 * 16^1 + 3 * 16^0 = 256 + 32 + 3 = 291 (in dec)
-
+hh
 Converting from dec to bin
 dec: 23
 bin: 10111
