@@ -8,26 +8,26 @@ using namespace std;
 
 int main() {
 
-    int a = 10; // in bin: 1010
-    int b = 6; // in bin: 0110
+    int a = 11; // in bin: 01011
+    int b = 21; // in bin: 10101
 
     cout << (a & b) << endl;
     /*
-    1010
-    &    = 0010 (2 in dec)
-    0110
+    01011
+    &    = 00001 (1 in dec)
+    10101
     */
     cout << (a | b) << endl;
     /*
-    1010
-    |    = 1110 (14 in dec)
-    0110
+    01011
+    |    = 11111 (31 in dec)
+    10101
     */
     cout << (a ^ b) << endl;
     /*
-    1010
-    ^    = 1100 (12 in dec)
-    0110
+    01011
+    ^    = 11110 (30 in dec)
+    10101
     */
 
     return 0;

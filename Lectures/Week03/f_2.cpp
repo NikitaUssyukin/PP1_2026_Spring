@@ -9,19 +9,21 @@ same as division by 2^b
 */
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main() {
+    int smallest_neg = pow(2, 31) * -1;
 
-    int a = 32; // 32-bit signed integer
-    // 32 bit representation: 
-    // 0000 0000 0000 0000 0000 0000 0010 0000
+    // 1000 0000 0000 0000 0000 0000 0000 0000
+    cout << smallest_neg << endl;
 
-    cout << (a << 2) << endl; 
-    // 0000 0000 0000 0000 0000 0000 1000 0000
-    cout << (a >> 2) << endl;
-    // 0000 0000 0000 0000 0000 0000 0000 1000
+    // 0000 0000 0000 0000 0000 0000 0000 0000
+    cout << (smallest_neg << 1) << endl;
+    
+    // 1100 0000 0000 0000 0000 0000 0000 0000
+    cout << (smallest_neg >> 1) << endl;
 
     return 0;
 }
