@@ -17,9 +17,12 @@ int main() {
     int a[n]; // at this point, elements of the array are not initialized
     // that means, they store undefined values or "junk values"
 
+    // undefined values or "junk values"
     for(int i = 0; i < n; ++i) {
         cout << a[i] << " ";
     }
+
+    // to avoid this situation, always make sure to initialize the values of your array
 
     return 0;
 }

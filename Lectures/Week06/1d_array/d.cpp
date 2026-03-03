@@ -1,5 +1,5 @@
 /*
-Increment and decrement (post- and pre- variations)
+Increment (++) and decrement (--) (post- and pre- variations)
 */
 
 #include <iostream>
@@ -20,7 +20,7 @@ int main() {
     cout << ++n << endl;
     cout << n << endl;
 
-    // with decrement it is the same, but it decreases by 1 instead of increasing
+    // with decrement (--) it is the same, but it decreases by 1 instead of increasing
 
     return 0;
 }

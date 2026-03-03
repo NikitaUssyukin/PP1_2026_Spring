@@ -19,7 +19,7 @@ int main() {
 
     // The output is in reverse order - last element is output first, then the element before the last, etc
     // the array itself is not changed
-    for(int i = n - 1; i >= 0; --i) {
+    for(int i = n - 1; i >= 0; --i) { // i is within [n-1; 0]
         cout << a[i] << " ";
     }
 

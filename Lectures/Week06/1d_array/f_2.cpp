@@ -1,7 +1,6 @@
 /*
-Demonstration of "junk values" - uninitialized elements of the array
+"junk values" - uninitialized elements of the array
 which store undefined values
-Declaring an array of size n, then immediately outputting its elements
 */
 
 #include <iostream>

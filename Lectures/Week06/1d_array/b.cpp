@@ -8,9 +8,9 @@ using namespace std;
 
 int main() {
 
-    int a[3] = {1, 2, 3};
+    int a[6] = {1, 2, 3, 4, 5, 6};
 
-    for(int i = 0; i < 3; ++i) {
+    for(int i = 0; i < 6; ++i) { // i goes within the range [0; 6) 
         cout << a[i] << " ";
     }
 
