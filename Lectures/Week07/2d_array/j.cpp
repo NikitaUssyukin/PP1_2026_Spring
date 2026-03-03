@@ -10,6 +10,7 @@ int main() {
 
     freopen("input.txt", "r", stdin);   // input from txt
     freopen("output.txt", "w", stdout); // output to txt
+    // either of these functions can also be called separately
 
     int n;
 
