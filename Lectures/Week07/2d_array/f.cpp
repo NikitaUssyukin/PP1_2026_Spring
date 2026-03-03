@@ -25,7 +25,6 @@ int main() {
     int max_i = 0; // row index of max element
     int max_j = 0; // col index of max element
 
-    // 
     for(int i = 0; i < n; ++i) {     // outer loop
         for(int j = 0; j < m; ++j) { // inner loop
             if(a[i][j] >= a[max_i][max_j]) {

@@ -18,10 +18,10 @@ int main() {
     };
 
     for(int i = 0; i < n * m; ++i) {
-        int r = i / n; // row index
+        int r = i / m; // row index
         int c = i % m; // column index
         cout << a[r][c] << " "; 
-        if(i % m == m - 1) cout << endl;
+        if(c == m - 1) cout << endl;
     }
 
     return 0;
