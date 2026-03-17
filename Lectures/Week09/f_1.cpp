@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
 
-    string s = "KAZAKHSTAN";
+    string s = "Real Madrid";
 
     sort(s.begin(), s.end());
 

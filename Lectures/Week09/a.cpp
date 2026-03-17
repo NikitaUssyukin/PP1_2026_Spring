@@ -25,10 +25,11 @@ checked access   - str.at(index)
 
 iterating over individual elements:
 for(int i = 0; i < str.size(); ++i) cout << str[i];
-or
+or, with range-based for loops:
 for(char c : str) cout << c;
 or
 for(char &c : str) cout << c;
+When compliling, make sure to use the -std=c++11 flag with range-based for
 
 string input:
 cin >> str;
@@ -47,7 +48,6 @@ using namespace std;
 int main() {
 
     // initializing strings
-    
     string s1;           // empty string
     string s2 = "hello"; // string containing "hello"
     string s3("hello");  // same thing, but now using a constructor

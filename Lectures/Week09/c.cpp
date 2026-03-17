@@ -17,6 +17,8 @@ int main() {
     }
     cout << endl;
 
+    // When compliling, make sure to use the -std==c++11 flag with range-based for
+    // Example: g++ c.cpp -std=c++11
     for(char c : s) {
         cout << c;
     }

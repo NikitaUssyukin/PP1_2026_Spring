@@ -1,5 +1,5 @@
 /*
-changing the elements of the string
+changing (modifying) the elements of the string
 */
 
 #include <iostream>
@@ -13,17 +13,19 @@ int main() {
     for(int i = 0; i < s.size(); ++i) {
         s[i] += 1;
     }
-    cout << s << endl;
+    cout << s << endl; // result: bcdef
 
     for(char c : s) {
         c += 1;
+        // cout << c;
     }
-    cout << s << endl;
+    // cout << endl;
+    cout << s << endl; // result: bcdef
 
     for(char &c : s) {
         c += 1;
     }
-    cout << s << endl;
+    cout << s << endl; // result: cdefg
 
     return 0;
 }
