@@ -21,7 +21,6 @@ int main() {
         cin >> x;
         v.push_back(x);
     }
-
     
     // standard for loop with iterators
     for(vector<int>::iterator it = v.begin(); it != v.end(); ++it) {

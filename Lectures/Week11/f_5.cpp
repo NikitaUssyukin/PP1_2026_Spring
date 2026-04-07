@@ -6,6 +6,7 @@ Basic example
 
 #include <iostream>
 #include <set>
+#include <vector>
 
 using namespace std;
 
@@ -26,13 +27,12 @@ int main() {
 
     cout << "size after input: " <<  s.size() << endl;
 
-    // range-based for loop
-    // because of the use of the range-based for loop, we need to use the -std=c++11 flag
-    // example: g++ e_2.cpp -std=c++11
-    for(int x : s) {
-        cout << x << " ";
-    }
-    cout << endl;
+    vector<int> v(s.begin(), s.end());
+
+    int idx;
+    cin >> idx;
+
+    cout << v.at(idx) << endl;
 
     return 0;
 }

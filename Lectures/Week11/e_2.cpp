@@ -29,6 +29,9 @@ int main() {
     // sort within indexes [l;r]
     sort(v.begin() + l, v.begin() + r + 1);
 
+    // range-based for loop
+    // because of the use of the range-based for loop, we need to use the -std=c++11 flag
+    // example: g++ e_2.cpp -std=c++11
     for(int x : v) {
         cout << x << " ";
     }

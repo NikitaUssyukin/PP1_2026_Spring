@@ -24,7 +24,7 @@ int main() {
 
     /*
     // range based for loop
-    for(int x : v) {
+    for(auto x : v) {
         cout << x << " ";
     }
     cout << endl;
