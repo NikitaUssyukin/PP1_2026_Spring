@@ -22,6 +22,19 @@ int main() {
         ++m[word];
     }
 
+    /*
+    5
+    abc bcd abc abc cde
+                    ^
+    
+    ++m["cde"]
+
+    map:
+    "abc" - 3
+    "bcd" - 1
+    "cde" - 1
+    */
+
     // when compliling, make sure to use the -std=c++11 flag
     // example: g++ i.cpp -std=c++11
     for(pair<string, int> p : m) {
