@@ -1,5 +1,5 @@
 /*
-Given string s with a bracket sequence, determine whether it is valid
+Given a string s containing a bracket sequence, determine whether it is valid
 ()         -> ok
 (          -> not ok
 ())        -> not ok

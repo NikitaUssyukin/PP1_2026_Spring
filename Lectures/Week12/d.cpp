@@ -1,5 +1,5 @@
 /*
-Given string s, remove all pairs of consecutive duplicate letters (symbols) from it
+Given a string s, remove all pairs of consecutive duplicate letters (symbols) from it
 
 aabc     -> bc
 aabbbc   -> bc

@@ -3,7 +3,7 @@ STL, Part 2
 
 Containers
 
-1) Stack
+1) Stack - last in, first out (LIFO)
 
 pop/push
  ↑↓
@@ -16,18 +16,18 @@ pop/push
 - Examples (real-world): 
     - A stack of trays in a cafeteria
     - A tube of pringles
-    - The "undo" operation in text editors
+    - The implementation of the "undo" operation in text editors
 
-2) Queue
+2) Queue - first in, first out (FIFO)
         ———————————————————
 push ->  * | * | * | * | *  ->  pop
         ———————————————————
-- Examples (real-world): 
+- Examples (real-world):
     - A line to the checkout in the supermarket
     - Processing of text input 
         - First symbol typed on the keyboard is the first to appear on the screen
 
-3) Deque (double-ended queue)
+3) Deque (double-ended queue) - first in, first out (FIFO) on both ends
               ———————————————————
 push/pop  <->  * | * | * | * | *    <->  push/pop
               ———————————————————
@@ -36,7 +36,7 @@ push/pop  <->  * | * | * | * | *    <->  push/pop
     - A deck of cards - a card can be taken either from the front or the bottom
     - Task scheduling for a CPU
 
-https://github.com/Beisenbek/programming-principles-1/tree/main/lab09
+https://github.com/NikitaUssyukin/programming-principles-1/tree/main/lab09
 */
 
 #include <iostream>
@@ -86,7 +86,7 @@ int main() {
     
     /*
     // This will give you a run-time error:
-    // The stack is empty, it has not top(), therefore segfault 11
+    // The stack is empty, it has not top(), therefore we get a segfault 11
     cout << "empty: " << st.empty() << endl;
     cout << "size: " << st.size() << endl;
     cout << st.top() << endl;

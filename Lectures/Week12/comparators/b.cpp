@@ -1,7 +1,7 @@
 /*
-Declare and implement a comparator that will allow us to 
-sort the vector such that all the odd numbers go in ascending order 
-before all the even numbers, also sorted in the same order
+Example: a comparator that will allow us to 
+sort a vector of integers such that all the odd numbers go in ascending order 
+before all the even numbers, also sorted in ascending order
 
 5
 1 2 3 4 5 -> 1 3 5 2 4
