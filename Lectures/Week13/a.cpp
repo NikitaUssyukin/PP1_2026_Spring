@@ -3,7 +3,9 @@ STL, Part 2
 
 Containers
 
-1) Stack - last in, first out (LIFO)
+1) Stack 
+- last in, first out (LIFO)
+- container adapter
 
 pop/push
  ↑↓
@@ -18,7 +20,10 @@ pop/push
     - A tube of pringles
     - The implementation of the "undo" operation in text editors
 
-2) Queue - first in, first out (FIFO)
+2) Queue 
+- first in, first out (FIFO)
+- container adapter
+
         ———————————————————
 push ->  * | * | * | * | *  ->  pop
         ———————————————————
